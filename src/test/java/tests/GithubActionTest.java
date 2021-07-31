@@ -12,7 +12,7 @@ public class GithubActionTest {
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver(new ChromeOptions().setHeadless(true));
 
-        driver.get("https://www.google.com/");
+        driver.get("https://test.urbanicfarm.com/");
 
         try {
             Thread.sleep(3000);
